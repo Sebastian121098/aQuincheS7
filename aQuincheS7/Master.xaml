@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aQuincheS7.Master"
+             Title="Menu Opciones"
+             >
+             
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="LISTA DE ELEMENTOS" FontSize="18"/>
+            <Button x:Name="btnInicio" Clicked="btnInicio_Clicked" Text="Inicio" ImageSource="menu.png"/>
+            <Button x:Name="btnAcerca" Clicked="btnAcerca_Clicked" Text="Acerca" ImageSource="acerca.png"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
